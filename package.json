@@ -1,6 +1,6 @@
 {
   "name": "end-of-week",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the last day of a week (Sunday) according to UTC",
   "main": "index.js",
   "scripts": {
