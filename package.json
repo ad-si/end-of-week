@@ -4,7 +4,8 @@
   "description": "Get the last day of a week (Sunday) according to UTC",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test.js"
+    "test": "node ./test.js",
+    "prepublish": "npm run test"
   },
   "repository": {
     "type": "git",
