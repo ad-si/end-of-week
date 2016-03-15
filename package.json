@@ -1,0 +1,23 @@
+{
+  "name": "end-of-week",
+  "version": "0.0.0",
+  "description": "Get the last day of a week (Sunday) according to UTC",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adius/end-of-week.git"
+  },
+  "keywords": [
+    "week",
+    "date"
+  ],
+  "author": "Adrian Sieber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adius/end-of-week/issues"
+  },
+  "homepage": "https://github.com/adius/end-of-week#readme"
+}
