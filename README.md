@@ -2,6 +2,8 @@
 
 Get the last day of a week (Sunday) according to UTC
 
+[![build status](https://img.shields.io/travis/adius/end-of-week.svg)](https://travis-ci.org/adius/end-of-week)
+
 
 ## Installation
 
