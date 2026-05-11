@@ -23,18 +23,21 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/adius/end-of-week.git"
+		"url": "git+https://github.com/ad-si/end-of-week.git"
 	},
 	"keywords": [
 		"week",
-		"date"
+		"date",
+		"utc",
+		"iso8601",
+		"calendar"
 	],
 	"author": "Adrian Sieber",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/adius/end-of-week/issues"
+		"url": "https://github.com/ad-si/end-of-week/issues"
 	},
-	"homepage": "https://github.com/adius/end-of-week#readme",
+	"homepage": "https://github.com/ad-si/end-of-week#readme",
 	"engines": {
 		"node": ">=20"
 	},
