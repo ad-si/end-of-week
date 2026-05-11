@@ -5,9 +5,11 @@ export default function endOfWeek(date: Date): Date {
 		)
 	}
 
-	const firstDayOfWeek = date.getUTCDate() - date.getUTCDay()
-	const lastDayOfWeek = new Date(date)
-	lastDayOfWeek.setUTCDate(firstDayOfWeek + 7)
+	const day = date.getUTCDay()
+	const daysUntilSunday = day === 0 ? 0 : 7 - day
+	const result = new Date(date)
+	result.setUTCDate(date.getUTCDate() + daysUntilSunday)
+	result.setUTCHours(23, 59, 59, 999)
 
-	return lastDayOfWeek
+	return result
 }

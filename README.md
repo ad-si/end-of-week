@@ -20,5 +20,5 @@ import endOfWeek from "end-of-week"
 const date = new Date("2016-06-21")
 
 console.log(endOfWeek(date))
-// => new Date("2016-06-26")
+// => new Date("2016-06-26T23:59:59.999Z")
 ```
